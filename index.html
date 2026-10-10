@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>隐私政策 · WorkBuddy Drive Hub</title>
+<style>
+  :root { color-scheme: light; }
+  body { max-width: 780px; margin: 40px auto; padding: 0 20px;
+         font-family: -apple-system, "Segoe UI", "Microsoft YaHei", sans-serif;
+         line-height: 1.75; color: #1f2328; background: #fff; }
+  h1 { font-size: 26px; border-bottom: 1px solid #e5e7eb; padding-bottom: 12px; }
+  h2 { font-size: 19px; margin-top: 32px; }
+  .meta { color: #6b7280; font-size: 14px; margin-bottom: 28px; }
+  code { background: #f3f4f6; padding: 2px 6px; border-radius: 4px; font-size: 13px; }
+  ul { padding-left: 22px; }
+  footer { margin-top: 48px; padding-top: 16px; border-top: 1px solid #e5e7eb;
+           color: #6b7280; font-size: 13px; }
+</style>
+</head>
+<body>
+
+<h1>隐私政策 · WorkBuddy Drive Hub</h1>
+<p class="meta">生效日期：2026-10-11 ｜ 最后更新：2026-10-11</p>
+
+<h2>一、本应用是什么</h2>
+<p>「WorkBuddy Drive Hub」是一个<strong>仅供开发者本人使用的个人自动化工具</strong>。它通过 Google 官方 OAuth 2.0 授权，以命令行客户端（Desktop app 类型）访问开发者<strong>自己</strong>的 Google Drive、Google Docs 与 Google Sheets，用于个人文件的同步、备份与自动化处理。</p>
+<p>本应用<strong>不面向公众开放</strong>，不涉及任何第三方用户，不提供商业服务，也不接受外部注册。</p>
+
+<h2>二、我们访问的 Google 数据范围</h2>
+<p>仅在您（账号所有者）明确授权后，本应用才会请求以下权限：</p>
+<ul>
+  <li><code>drive</code> — 读写您自己 Google Drive 中的文件</li>
+  <li><code>docs</code> — 读写您自己的 Google 文档</li>
+  <li><code>sheets</code> — 读写您自己的 Google 表格</li>
+</ul>
+<p>本应用<strong>不会</strong>请求 Gmail、通讯录、日历、相册或任何其他 Google 服务的权限。</p>
+
+<h2>三、数据如何被使用</h2>
+<ul>
+  <li><strong>仅本地处理</strong>：所有文件读写均在本机完成，用于本人的自动化工作流。</li>
+  <li><strong>不上传、不外传</strong>：您的 Google 数据不会被传输给任何第三方服务器、服务商或个人。</li>
+  <li><strong>不做数据分析</strong>：不用于广告、画像、统计、训练或任何商业用途。</li>
+  <li><strong>凭证安全存储</strong>：OAuth 的 refresh token 加密保存在本机系统凭据管理器（Windows Credential Manager / Keyring）中，不以明文形式落地磁盘。</li>
+</ul>
+
+<h2>四、数据保留与删除</h2>
+<p>本应用不在云端保留您的任何 Google 数据副本。您可随时通过以下方式撤销授权：</p>
+<ul>
+  <li>访问 <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>，找到本应用并点选「移除访问权限」；或</li>
+  <li>在本机执行 <code>gog auth remove &lt;email&gt;</code> 删除本地令牌。</li>
+</ul>
+<p>撤销后本应用立即失去访问能力，且不会保留任何已获取的数据。</p>
+
+<h2>五、第三方共享</h2>
+<p>我们不向任何第三方出售、出租、共享或披露您的 Google 用户数据。本应用不含第三方统计、广告或追踪组件。</p>
+
+<h2>六、联系方式</h2>
+<p>如对本政策有任何疑问，请联系开发者邮箱：<strong>chowszesing@gmail.com</strong>。</p>
+
+<hr style="margin:40px 0;border:none;border-top:1px solid #e5e7eb">
+
+<h1>Privacy Policy · WorkBuddy Drive Hub</h1>
+<p class="meta">Effective: 2026-10-11 ｜ Last updated: 2026-10-11</p>
+
+<p><strong>WorkBuddy Drive Hub</strong> is a <strong>personal, single-user automation tool</strong> used exclusively by its developer. It uses Google OAuth 2.0 (Desktop app client type) to access the developer's <strong>own</strong> Google Drive, Docs, and Sheets for personal file sync, backup, and automation.</p>
+
+<p><strong>Data we access:</strong> Only the scopes <code>drive</code>, <code>docs</code>, and <code>sheets</code>, granted explicitly by the account owner. No Gmail, Contacts, Calendar, Photos, or other Google services are requested.</p>
+
+<p><strong>How data is used:</strong> All processing happens locally on the user's own machine. Google user data is never transmitted to, uploaded to, or shared with any third party. It is not used for advertising, profiling, analytics, model training, or any commercial purpose. OAuth refresh tokens are stored encrypted in the operating system's credential manager.</p>
+
+<p><strong>Retention &amp; deletion:</strong> No cloud copies of Google data are retained. Access can be revoked at any time via <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a> or by deleting the local token.</p>
+
+<p><strong>Third-party sharing:</strong> None. We do not sell, rent, share, or disclose Google user data to any third party. The app contains no analytics, advertising, or tracking components.</p>
+
+<p><strong>Contact:</strong> chowszesing@gmail.com</p>
+
+<footer>WorkBuddy Drive Hub · Personal-use OAuth client · Google Cloud project: workbuddy-drive-hub</footer>
+
+</body>
+</html>
